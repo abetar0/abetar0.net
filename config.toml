@@ -2,3 +2,7 @@ baseURL = "https://abetar0.net/"
 languageCode = "en-us"
 title = "abetar0"
 theme = "ezhil"
+
+favicon = "icons/cat.png"
+
+copyright = "© 2020 abetar0"
