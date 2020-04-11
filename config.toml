@@ -1,8 +1,9 @@
 baseURL = "https://abetar0.net/"
 languageCode = "en-us"
 title = "abetar0"
-theme = "ezhil"
+theme = "theer"
 
 favicon = "icons/cat.png"
 
-copyright = "© 2020 abetar0"
+copyright = "&copy; 2020 abetar0"
+showFooterCredits = false
