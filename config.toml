@@ -1,9 +1,9 @@
 baseURL = "https://abetar0.net/"
 languageCode = "en-us"
-title = "abetar0"
+title = "abetar0.net"
 theme = "theer"
 
 favicon = "icons/cat.png"
 
 copyright = "&copy; 2020 abetar0"
-showFooterCredits = false
+showFooterCredits = "false"
