@@ -6,4 +6,4 @@
 	url = https://github.com/qqhann/theer.git
 [submodule "themes/archie"]
 	path = themes/archie
-	url = https://github.com:abetar0/archie.git
+	url = https://github.com/abetar0/archie.git
