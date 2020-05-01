@@ -23,7 +23,7 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node_version: 12.x
-    - run: npm-ci
+    - run: npm ci
     - run: npm run build
     - run: npx netlify-cli deploy --dir=./dist
       env:
