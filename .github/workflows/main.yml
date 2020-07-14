@@ -19,13 +19,21 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    
-    - uses: actions/setup-node@v1
       with:
-        node_version: 12.x
-    - run: npm ci
-    - run: npm run build
-    - run: npx netlify-cli deploy --dir=./dist
+        submodules: true
+    - name: setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.74.1'
+
+    - name: Build
+      run: hugo --minify
+
+    - name: Deploy to Netlify
+      uses: netlify/actions/cli@master
+      with:
+        args: deploy --dir=public
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        NETLIFY_AUTH_TOKEN: ${{secrets.NETLIFY_AUTH_TOKEN}}
