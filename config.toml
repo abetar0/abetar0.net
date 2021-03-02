@@ -6,4 +6,5 @@ theme = "archie"
 copyright = "© abetar0"
 
 [params]
-favicon = "/icons/cat.png"
+    favicon = "/icons/cat.png"
+    subtitle = "This is subtitle"
