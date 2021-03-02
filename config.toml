@@ -3,5 +3,7 @@ baseURL = "https://abetar0.net/"
 languageCode = "en-us"
 title = "abetar0.net"
 theme = "archie"
-favicon = "icons/cat.png"
 copyright = "© abetar0"
+
+[params]
+favicon = "/icons/cat.png"
