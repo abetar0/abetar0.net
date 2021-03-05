@@ -4,9 +4,11 @@ languageCode = "ja-jp"
 title = "abetar0.net"
 theme = "archie"
 copyright = "© abetar0"
+defaultContentLanguage = "ja"
 
 [params]
     favicon = "/icons/cat.png"
+    description = "abetar0が日々のあれこれを書き散らしています｡"
 
 #[[menu.main]]
 #name = "記事"
