@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /*.mp3
+
+Sitemap: https://abetar0.net/sitemap.xml
