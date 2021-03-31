@@ -10,10 +10,10 @@ defaultContentLanguage = "ja"
     favicon = "/icons/cat.png"
     description = "abetar0が日々のあれこれを書き散らしています｡"
 
-#[[menu.main]]
-#name = "記事"
-#url = "/posts"
-#weight = 0
+[[menu.main]]
+name = "記事"
+url = "/posts"
+weight = 0
 
 [[menu.main]]
 name = "About"
